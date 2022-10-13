@@ -1,0 +1,16 @@
+
+td {
+  background-color: rgb(205, 235, 253);
+}
+
+.delete-button {
+  border: 0px none;
+  padding: 8px;
+  margin: 5px;
+  border-radius: 5px;
+}
+
+.delete-icon {
+  height: 80px;
+  width: 180px;
+}

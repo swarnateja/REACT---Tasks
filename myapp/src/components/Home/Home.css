@@ -1,0 +1,78 @@
+.main {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+
+
+.tableContainer{
+    width: 90%;
+}
+
+table{
+    width: 80vw;
+
+
+}
+
+thead{
+    background-color: aqua;
+}
+tbody{
+    background-color: rgb(228, 171, 102);
+    
+
+}
+
+th{
+    font-size: 20px;
+    padding: 10px;
+}
+
+td{
+    font-size: 18px;
+    padding: 8px;
+    align-items: center;
+}
+
+.formContainer{
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+form{
+    width:50%;
+    display: flex;
+    flex-direction: column;
+justify-content: center;}
+
+input{
+    padding: 8px;
+    outline: none;
+    margin:6px;
+}
+spam{
+    color: red;
+}
+.button{
+    align-self: center;
+    padding: 10px;
+    color:white;
+    background-color: rgb(2, 2, 58);
+    border:none;
+
+}
+
+label{
+    font-weight: 700;
+    padding-top: 10px;
+}
+
+h1{
+    align-self: center;
+}

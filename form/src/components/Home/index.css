@@ -1,0 +1,137 @@
+.main-container{
+    display: flex;
+    flex-direction: column;
+    background-image: radial-gradient(rgb(135, 248, 224), rgb(161, 177, 250));
+    height: 100%;
+    width:  100%;
+    background-size: cover;
+    min-height: 100vh;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Roboto';
+    padding-top: 20px;
+    padding-bottom:40px;
+}
+.ul-style {
+    display: flex;
+    list-style-type: none;
+  }
+
+form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+    border: 2px dotted black;
+    padding: 15px;
+    border-radius: 10px;
+}
+.inputs-container{
+    display: flex;
+    flex-direction: column;
+    padding: 8px;
+}
+.dates-container{
+    display: flex;
+    flex-direction: row;
+    padding: 4px;
+    margin: 4px;
+}
+.date{
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+
+}
+.radios-container{
+    display: flex;
+    flex-direction: row;
+}
+.text-input{
+    padding: 7px;
+    width: 350px;
+}
+
+.date-input{
+    padding: 7px;
+    width: 120px;
+}
+
+label{
+    font-size: 18px;
+    color:black ;
+    padding-top: 10px;
+}
+.submit-button{
+  background-color: #0b69ff;
+  border-radius: 5px;
+  border: 0px none;
+  cursor: pointer;
+  height: 50px;
+  padding: 15px;
+  width: 80px;
+  color: white;
+  font-size: 18px;
+  font-family: Roboto;
+}
+.view-button{
+  background-color: #460340;
+  border-radius: 5px;
+  border: 0px none;
+  cursor: pointer;
+  height: 50px;
+  padding: 15px;
+  width: 140px;
+  color: rgb(252, 252, 252);
+  font-size: 18px;
+  font-family: Roboto;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+span{
+    color: red;
+}
+.app-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  padding: 10px;
+  background-color: aqua;
+}
+
+table {
+  border-radius: 3px;
+ 
+}
+
+th {
+  border: 1px solid #ffffff;
+  text-align: center;
+  padding:5px;
+  font-size:18px;
+  background-color: rgb(101, 104, 238);
+}
+td {
+  border: 1px solid #ffffff;
+  text-align: center;
+  padding: 3px;
+  font-size: 18px;
+}
+
+.message{
+    color: red;
+    font-size: 20px;
+    font-weight: bold;
+}
+.table-form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: transparent;
+    padding: 15px;
+    border-radius: 10px;
+    border: none;
+
+}
